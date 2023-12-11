@@ -10,22 +10,23 @@
 **Initial Setup:**
 
 1. **AD User (Windows 10/Windows 11):**
-   - 2+ Cores for CPU
+   - 1+ Cores for CPU
    - 4+ GB of RAM
    - 32+ GB of storage
    - Set up the adapter as Internal Network
 
 2. **Windows Server:**
    - 2+ Cores for CPU
-   - 8+ GB of RAM
+   - 6+ GB of RAM
    - 32+ GB of Storage
    - Set up the adapter as Internal Network
 
 3. **pfSense:**
-   - 1 or 2 Cores for CPU
-   - 2 GB of RAM
-   - 16+ GB of Storage
-   - Set up Adapter #2 as Internal Network
+   - 1+ Cores for CPU
+   - 2+ GB of RAM
+   - 8+ GB of Storage
+   - Set the first adapter as NAT
+   - Set up the second Adapter as Internal Network
 
 **pfSense Configuration:**
 
